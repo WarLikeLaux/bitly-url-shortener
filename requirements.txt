@@ -1,0 +1,2 @@
+requests==2.28.2			# imported as "requests"
+python-dotenv==0.21.1	# imported as "dotenv"
