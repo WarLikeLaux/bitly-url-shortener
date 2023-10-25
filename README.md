@@ -34,7 +34,7 @@
 
 ## Installation
 
-To install Countries Workload Bot, follow these steps:
+To install Bitly URL Shortener, follow these steps:
 
 ### 1. 🐍 Environment setup
 
