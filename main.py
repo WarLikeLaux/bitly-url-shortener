@@ -14,8 +14,6 @@ parser.add_argument(
     )
 )
 
-load_dotenv()
-
 BASE_URL = "https://api-ssl.bitly.com"
 SHORTEN_LINK_URL = f"{BASE_URL}/v4/bitlinks"
 
@@ -58,6 +56,7 @@ def count_clicks(token, link):
 
 
 def main():
+    load_dotenv()
     bitly_access_token = os.environ['BITLY_ACCESS_TOKEN']
     link = parser.parse_args().link
     try:
